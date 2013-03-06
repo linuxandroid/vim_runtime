@@ -7,7 +7,7 @@ set mousemodel=popup
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Color scheme setting.
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"color peaksea
+color peaksea
 "color default
 
 
