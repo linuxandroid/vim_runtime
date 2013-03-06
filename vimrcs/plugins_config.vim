@@ -79,6 +79,5 @@ map <leader>tt :TlistToggle<cr><cr>
 let g:Powerline_symbols = 'fancy'
 set fillchars+=stl:\ ,stlnc:\ 
 let g:Powerline_cache_enabled = 1
-let g:Powerline_cache_file='~/.vim_runtime/plugins/vim-powerline/Powerline.cache'
 set laststatus=2
 set t_Co=256
