@@ -1,4 +1,7 @@
-
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => UI setting modify.
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set so=0    "source line
 set mouse=a
 set foldcolumn=0
 set mousemodel=popup
