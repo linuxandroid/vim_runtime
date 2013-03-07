@@ -75,6 +75,7 @@ au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 let g:tagbar_left=1
 let g:tagbar_autoclose=0
 let g:tagbar_compact=1
+let g:tagbar_iconchars = ['+', '-']
 map <leader>tt :TagbarToggle<cr><cr>
 
 

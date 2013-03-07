@@ -5,6 +5,9 @@ set so=0    "source line
 set mouse=a
 set foldcolumn=0
 set mousemodel=popup
+set encoding=utf-8
+set termencoding=utf-8
+set fileencodings=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
