@@ -61,14 +61,21 @@ au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Taglist
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let Tlist_Show_One_File=1
-let Tlist_Auto_Open =0 
-let Tlist_Exit_OnlyWindow = 1
-let Tlist_Use_Right_Window = 0
-let Tlist_File_Fold_Auto_Close=1
-let Tlist_Show_Menu=0
-map <leader>tt :TlistToggle<cr><cr>
+"let Tlist_Show_One_File=1
+"let Tlist_Auto_Open =0 
+"let Tlist_Exit_OnlyWindow = 1
+"let Tlist_Use_Right_Window = 0
+"let Tlist_File_Fold_Auto_Close=1
+"let Tlist_Show_Menu=0
+"map <leader>tt :TlistToggle<cr><cr>
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Tagbar
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:tagbar_left=1
+let g:tagbar_autoclose=0
+let g:tagbar_compact=1
+map <leader>tt :TagbarToggle<cr><cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
