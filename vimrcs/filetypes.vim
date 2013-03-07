@@ -3,6 +3,7 @@
 """"""""""""""""""""""""""""""
 let python_highlight_all = 1
 au FileType python syn keyword pythonDecorator True None False self
+au FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4 textwidth=120
 
 au BufNewFile,BufRead *.jinja set syntax=htmljinja
 au BufNewFile,BufRead *.mako set ft=mako
@@ -22,6 +23,7 @@ au FileType python map <buffer> <leader>D ?def
 """"""""""""""""""""""""""""""
 " => JavaScript section
 """""""""""""""""""""""""""""""
+au FileType javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
 au FileType javascript call JavaScriptFold()
 au FileType javascript setl fen
 au FileType javascript setl nocindent
@@ -47,8 +49,10 @@ endfunction
 """"""""""""""""""""""""""""""
 " => CoffeeScript section
 """""""""""""""""""""""""""""""
+au FileType coffee call CoffeeScriptFold()
+
 function! CoffeeScriptFold()
     setl foldmethod=indent
     setl foldlevelstart=1
 endfunction
-au FileType coffee call CoffeeScriptFold()
+
