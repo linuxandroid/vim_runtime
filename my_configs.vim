@@ -6,6 +6,11 @@ set mouse=a
 set foldcolumn=0
 set mousemodel=popup
 
+" highlight current line
+au WinLeave * set nocursorline nocursorcolumn
+au WinEnter * set cursorline cursorcolumn
+set cursorline cursorcolumn
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Color scheme setting.
