@@ -1,5 +1,5 @@
 """"""""""""""""""""""""""""""
-" => Python section
+" => Python section {{{1
 """"""""""""""""""""""""""""""
 let python_highlight_all = 1
 au FileType python syn keyword pythonDecorator True None False self
@@ -21,7 +21,7 @@ au FileType python map <buffer> <leader>D ?def
 
 
 """"""""""""""""""""""""""""""
-" => JavaScript section
+" => JavaScript section {{{1
 """""""""""""""""""""""""""""""
 au FileType javascript setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
 au FileType javascript call JavaScriptFold()
@@ -47,7 +47,7 @@ endfunction
 
 
 """"""""""""""""""""""""""""""
-" => CoffeeScript section
+" => CoffeeScript section {{{1
 """""""""""""""""""""""""""""""
 au FileType coffee call CoffeeScriptFold()
 
@@ -56,3 +56,4 @@ function! CoffeeScriptFold()
     setl foldlevelstart=1
 endfunction
 
+" vim: ts=8 sw=4 sts=4 et foldenable foldmethod=marker foldcolumn=1

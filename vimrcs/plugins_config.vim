@@ -6,13 +6,13 @@
 
 
 """"""""""""""""""""""""""""""
-" => Load pathogen paths
+" => pathogen paths {{{1
 """"""""""""""""""""""""""""""
 call pathogen#infect('~/.vim_runtime/plugins')
 call pathogen#helptags()
 
 """"""""""""""""""""""""""""""
-" => bufExplorer plugin
+" => bufExplorer {{{1
 """"""""""""""""""""""""""""""
 let g:bufExplorerDefaultHelp=0
 let g:bufExplorerShowRelativePath=1
@@ -22,7 +22,7 @@ map <leader>o :BufExplorer<cr>
 
 
 """"""""""""""""""""""""""""""
-" => CTRL-P
+" => CTRL-P {{{1
 """"""""""""""""""""""""""""""
 let g:ctrlp_working_path_mode = 0
 
@@ -33,14 +33,14 @@ let g:ctrlp_max_height = 20
 let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee'
 
 """"""""""""""""""""""""""""""
-" => snipMate (beside <TAB> support <CTRL-j>)
+" => snipMate (beside <TAB> support <CTRL-j>) {{{1
 """"""""""""""""""""""""""""""
 ino <c-j> <c-r>=snipMate#TriggerSnippet()<cr>
 snor <c-j> <esc>i<right><c-r>=snipMate#TriggerSnippet()<cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Nerd Tree
+" => Nerd Tree {{{1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let NERDTreeWinPos="right"
 let NERDTreeMouseMode=2
@@ -50,7 +50,7 @@ map <leader>nf :NERDTreeFind<cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => surround.vim config
+" => surround  {{{1
 " Annotate strings with gettext http://amix.dk/blog/post/19678
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 vmap Si S(i_<esc>f)
@@ -59,7 +59,7 @@ au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Taglist
+" => Taglist {{{1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "let Tlist_Show_One_File=1
 "let Tlist_Auto_Open =0 
@@ -70,7 +70,7 @@ au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 "map <leader>tt :TlistToggle<cr><cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Tagbar
+" => Tagbar {{{1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:tagbar_left=1
 let g:tagbar_autoclose=0
@@ -80,7 +80,7 @@ map <leader>tt :TagbarToggle<cr><cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => PowerLine Setting
+" => PowerLine {{{1
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "let g:Powerline_symbols = 'compatible'
 "let g:Powerline_symbols = 'unicode'
@@ -93,7 +93,9 @@ set nocompatible
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Syntastic Setting
+" => Syntastic {{{1
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "let g:syntastic_check_on_open=1;
 
+
+" vim: ts=8 sw=4 sts=4 et foldenable foldmethod=marker foldcolumn=1
