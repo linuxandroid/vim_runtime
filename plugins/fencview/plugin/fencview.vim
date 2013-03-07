@@ -104,7 +104,7 @@ endfun
 
 " variable definition{{{1
 if !exists('g:fencview_autodetect')
-    let g:fencview_autodetect = 0
+    let g:fencview_autodetect = 1
 endif
 if !exists('g:fencview_auto_patterns')
     let g:fencview_auto_patterns='*.txt,*.htm{l\=}'
