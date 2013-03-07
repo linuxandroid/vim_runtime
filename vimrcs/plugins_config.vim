@@ -89,6 +89,7 @@ set fillchars+=stl:\ ,stlnc:\
 let g:Powerline_cache_enabled = 1
 set laststatus=2
 set t_Co=256
+set nocompatible
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
