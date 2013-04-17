@@ -44,7 +44,7 @@ snor <c-j> <esc>i<right><c-r>=snipMate#TriggerSnippet()<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let NERDTreeWinPos="right"
 let NERDTreeMouseMode=2
-map <leader>nn :NERDTreeToggle<cr>
+map <F12> :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark 
 map <leader>nf :NERDTreeFind<cr>
 
@@ -76,7 +76,7 @@ let g:tagbar_left=1
 let g:tagbar_autoclose=0
 let g:tagbar_compact=1
 let g:tagbar_iconchars = ['+', '-']
-map <leader>tt :TagbarToggle<cr><cr>
+map <F2> :TagbarToggle<cr><cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
